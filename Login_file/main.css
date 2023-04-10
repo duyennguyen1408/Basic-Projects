@@ -42,7 +42,7 @@ body{
     border: 0px;
 }
 
-.Login input[type="submit"]{
+.Login input[type="button"]{
     margin: 20px 84px 98px 74px;
     width: 232px;
     height: 63px;

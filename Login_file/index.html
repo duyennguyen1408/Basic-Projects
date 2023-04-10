@@ -19,16 +19,24 @@
 
         <form>
             <div class="type">
-                <input type="email" placeholder="input your email">
+                <input id="name" type="email" placeholder="input your email">
             </div>
             <div class="type">
-                <input type="password" placeholder="input your password">
+                <input id="pass" type="password" placeholder="input your password">
             </div>
             <div>
-                <input type="submit" value="LOGIN">
+                <input type="button" value="LOGIN" onclick="getInfo()">
             </div>
         </form>
-
     </div>
+    <script>
+        function getInfo(){
+            let a = document.getElementById("name").value;
+            let b = document.getElementById("pass").value;
+            alert(a);
+            alert(b);
+        }
+
+    </script>
 </body>
 </html>

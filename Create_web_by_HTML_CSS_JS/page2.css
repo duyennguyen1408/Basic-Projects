@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+/* các header ko thẳng hàng do each image có size khác!!??? */
+body{
+    background-color: #FFFFFF;
+    width: 99%;
+    background: url(../img/Vector.png);
+    background-position: 0vw 32vh;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    padding: 0 8%;
+    background-image: url(../img/element.png);
+    background-position: 85vw 89vh;
+    background-repeat: no-repeat;
+}
+
+.box .box__first{
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 30px;
+}
+
+.box .box__first h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-align: center;
+}
+
+.box .box__first hr{
+    width: 40px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: -24px;
+}
+
+.box .box__first p{
+    width: 100%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.box .box__second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box .box__second .box__second__block{
+    width: 320px;
+    padding:37px 36px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin: 12px;
+}
+
+.box .box__second .box__second__block .box__second__block__image{
+    width: auto;
+
+}
+
+.box .box__second .box__second__block h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+
+}
+
+.box .box__second .box__second__block p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.box input[type="submit"]{
+    width: 200px;
+    height: 60px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: auto;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    border-radius: 55px;
+    border-color: rgba(69, 143, 246, 1);
+    background-color: #FFFFFF;
+    margin: 50px 40%;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background-color: #458FF6;
+    color:#FFFFFF;
+}

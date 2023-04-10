@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 99%;
+    background-image: url(../img/Vector_rotate.png);
+    background-repeat: no-repeat;
+    background-position: 65vw 20vh;
+}
+
+.box{
+    width: 99%;
+    padding: 0 8%;
+}
+
+.box .box__header{
+    width: 100%;
+    text-align: center;
+}
+
+.box .box__header h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.box .box__header hr{
+    width: 56px;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.box .box__content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box .box__content .box__content__block{
+    width: 36%;
+    height: auto;
+    padding: auto 36px;
+    padding-bottom: 30px;
+    margin: 12px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background: white;
+}
+
+.box .box__content .box__content__block img{
+    width: 100%;
+    height: auto;
+}
+
+.box .box__content .box__content__block h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding: 0 25px;
+}
+
+.box .box__content .box__content__block p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    padding: 0 25px;
+}
+
+.box .box__content .box__content__block span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.box .box__content .box__content__block .box__content__block--Info:hover{
+    color:#4089ED;
+    text-decoration: underline;
+}
+
+.box input[type="submit"]{
+    width: 180px;
+    height: auto;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    border-radius: 55px;
+    border-color: rgba(69, 143, 246, 1);
+    background-color: white;
+    margin: 50px 42%;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background-color: #4089ED;
+    color: white;
+}

@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+    width: 99%;
+}
+
+img {
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    padding: 0 8%;
+}
+
+.box .box__first{
+    position: fixed;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .box__first .box__first__heading{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #233348;
+    mix-blend-mode: normal;
+}
+
+.box .box__first .box__first__heading .box__first__heading--circle{
+    width: 41px;
+    height: 41px;
+    background: #458FF6;
+    border-radius: 120%;
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding: 5px 11px;
+}
+
+.box .box__first .box__first__taskbar{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    margin-top: 31px;
+    margin-right: 60px;
+}
+
+.box .box__first .box__first__taskbar span{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.box .box__first .box__first__taskbar span:hover{
+    font-weight: 1000;
+    color:black;
+}
+
+.box .box__second{
+    display: flex;
+    width: 90%;
+    padding-top: 10%;
+}
+
+.box .box__second .box__second__text{
+    width: 100%;
+}
+
+.box .box__second .box__second__text h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding-top: 25px;
+}
+
+.box .box__second .box__second__text p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;    
+    color: #7D7987;
+    mix-blend-mode: normal;
+    margin-top: -30px;
+}
+
+.box .box__second .box__second__text input[type="submit"]{
+    background: #458FF6;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    padding: 0px 41px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.box .box__second .box__second__text input[type="submit"]:hover{
+    background-color: #FFFFFF;
+    color:#458FF6;
+}
+
+.box .box__second .box__second__img{
+    width: 95%;
+    margin: 5px -120px 5px auto;
+}
+
+
